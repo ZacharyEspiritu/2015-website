@@ -29,11 +29,11 @@ body {
 
 .test-wrapper {
     position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .test-wrapper .box-outline {
@@ -52,6 +52,18 @@ body {
     padding: 2em 5em;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(../img/parallaxbg.jpg) center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0;
 }
 
 .text-vertical-center h1 {
