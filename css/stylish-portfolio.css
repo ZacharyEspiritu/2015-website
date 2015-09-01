@@ -62,12 +62,17 @@ body:before {
     top: 50%;
     left: 50%;
     color: #fff;
-    padding: 2em 5em;
     z-index: 2;
+    
     opacity: 0.92;
     
     -webkit-filter: drop-shadow(0px 0px 15px #0a0a0a);
     filter: drop-shadow(0px 0px 15px #0a0a0a); 
+}
+
+img.resize {
+    max-width: 100%; /* you can use % */
+    height: auto; 
 }
 
 header .overlay {
