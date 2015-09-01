@@ -71,7 +71,7 @@ body:before {
 }
 
 img.resize {
-    max-width: 100%; /* you can use % */
+    max-width: 80%;
     height: auto; 
 }
 
