@@ -49,7 +49,11 @@ body:before {
     z-index: 1;
 }
 
-.test-wrapper .box-outline {
+.particleparticle {
+    background: #222;
+}
+
+.box-outline {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -227,7 +231,6 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
