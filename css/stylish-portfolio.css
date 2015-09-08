@@ -11,6 +11,8 @@ html,
 body {
     width: 100%;
     height: 100%;
+    position: absolute;
+    overflow-x: hidden;
 }
 
 body {
@@ -76,7 +78,7 @@ body:before {
 
 img.resize {
     max-width: 80%;
-    height: auto; 
+    max-height: 80%; 
 }
 
 header .overlay {
@@ -207,7 +209,7 @@ hr.small {
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 16px;
 }
 
 #sidebar-wrapper.active {
